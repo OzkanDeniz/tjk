@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+001-Image Gellery Project(folder)
+|
+|----readme.md         # Given to the students (Definition of the project)
+SOLUTION
+├── public
+│     └── index.html
+├── src
+│    ├── components
+│    │       ├── Picture.jsx
+│    ├── pages
+│    │       ├── Homepage.jsx
+│    ├── helper
+│    │       └── data.js
+│    ├── styles
+│    │       ├── style.css
+│    ├── App.js
+│    ├── index.js
+└── package.json
