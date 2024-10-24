@@ -1,15 +1,22 @@
 import data from "../helper/data";
 
 const Picture = () => {
-  return (
-    <div className="pictures row">
+  return (<div class="container">
+    <div class="row">
       {data.map((item) => (
-        <div>
-          <img src={item.src.large} alt="" />
-          <p>{item.photographer}</p>
+        <div class="col-3">
+          <div className="picture-container" >
+            <img src={item.src.large} alt="" />
+          </div>
+
+          <div class="text-center">
+            <h2>{item.photographer}</h2>
+          </div>
         </div>
       ))}
     </div>
+  </div>
+    
   );
 };
 

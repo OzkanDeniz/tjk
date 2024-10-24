@@ -69,6 +69,12 @@ const data = [
       large: "https://medya-cdn.tjk.org/medyaftp/gazi2024/atlar/Madras.jpg",
     },
   },
+  {
+    photographer: "Orchid İncisi",
+    src: {
+      large: "https://medya-cdn.tjk.org/haberftp/2024/ohridhab030524.jpg",
+    },
+  },
 ];
 
 export default data;
